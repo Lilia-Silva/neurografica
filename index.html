@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Нейрографика с Лозиной Светланой</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+/>
+
+</head>
+<body>
+
+<!-- Шапка сайта -->
+<header class="header">
+    <div class="container-header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Логотип"></a>
+
+        <!-- Выпадающее меню рядом с логотипом -->
+        <nav class="navigation">
+            <button class="menu-toggle" onclick="toggleMenu()">Главное меню</button>
+            <div class="menu-items">
+                <a href="index.html">Главная страница</a>
+                <a href="about.html">О специалисте</a>
+                <a href="services.html">Услуги и пакеты</a>
+                <a href="gallery.html">Галерея работ</a>
+                <a href="testimonials.html">Отзывы клиентов</a>
+                <a href="blog.html">Блог или статьи</a>
+                <a href="contact.html">Контактная информация</a>
+                <a href="faq.html">Часто задаваемые вопросы (FAQ)</a>
+            </div>
+        </nav>
+
+        <!-- Переключатель языка и кнопка записи -->
+        <div class="header-right">
+            <a href="contact.html" class="btn btn-primary">Записаться</a>
+            <div class="language-switcher">
+                <a href="?lang=ru" ><img src="img/russian.png" width="30px" height="16px"></a> 
+                <a href="?lang=en"><img src="img/english.png" width="30px" height="16px"></a> 
+                <a href="?lang=zh"><img src="img/chinese.png" width="30px" height="16px"></a>
+            </div>
+        </div>
+    
+    </div>
+</header>
+
+<!-- Баннер -->
+<section class="hero">
+    <div class="hero-background">
+        <div class="container">
+            <h1>Раскройте свою внутреннюю гармонию через нейрографику</h1>
+            <p>Трансформирующие сеансы для баланса и личностного роста</p>
+            <a href="services.html" class="btn btn-secondary">Узнать больше</a>
+            <a href="contact.html" class="btn btn-primary">Записаться сейчас</a>
+        </div>
+    </div>
+</section>
+
+<!-- О специалисте -->
+<section class="about">
+    <div class="container">
+        <h2>О специалисте</h2>
+        <img src="img/about.jpg" alt="Фото специалиста"  class="about-image">
+        <p>Светлана Лозина — сертифицированный специалист и инструктор по нейрографике 
+            с более чем десятилетним опытом в коучинге и трансформационных практиках. 
+            Получив сертификат инструктора нейрографики в 2016 году, Светлана использует 
+            этот метод как инструмент для глубокой личной трансформации и раскрытия 
+            внутреннего потенциала. Ее подход соединяет искусство, психологию и творчество, 
+            позволяя клиентам выявлять скрытые блоки, управлять эмоциями и достигать 
+            гармонии с собой.</p>
+
+        <p>Благодаря нейрографике, Светлана помогает своим клиентам погружаться в бессознательное, 
+            использовать силу рисунка для работы с внутренними переживаниями и трансформации 
+            жизненных ситуаций. Каждый рисунок становится способом взаимодействия с собой, 
+            открытия новых возможностей и поиска решений.</p>
+
+        <p>В своем обучении и практике Светлана делится тонкостями метода, предлагая каждому 
+            студенту и клиенту уникальный путь к самопознанию и преодолению ограничений. Этот 
+            процесс — не только возможность для улучшения качества жизни, но и путь к более 
+            осознанному, гармоничному существованию.</p>
+        <a href="about.html" class="btn btn-secondary">Подробнее</a>
+    </div>
+</section>
+
+<!-- Преимущества нейрографики -->
+
+<section class="benefits">
+    <div class="container">
+        <h2>Почему нейрографика?</h2>
+        <div class="benefit-item">
+            <img src="img/about1.png" alt="Иконка" width="100" height="90">
+            <div class="text-content">
+                <h3>Снижение стресса</h3>
+                <p>Помогает расслабиться и найти внутренний баланс.</p>
+            </div>
+        </div>
+        <div class="benefit-item">
+            <img src="img/about2.png" alt="Иконка" width="100" height="90">
+            <div class="text-content">
+                <h3>Развитие креативности</h3>
+                <p>Открывает новые перспективы и возможности для роста.</p>
+            </div>
+        </div>
+        <div class="benefit-item">
+            <img src="img/about3.png" alt="Иконка" width="100" height="90">
+            <div class="text-content">
+                <h3>Личностный рост</h3>
+                <p>Стимулирует самопознание и принятие себя.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Услуги -->
+ <section class="services">
+    <div class="container">
+        <h2>Пакеты услуг</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <img src="img/combo1.jpg" alt="Изображение услуги" width="100%" >
+                <h3>Базовый пакет</h3> 
+                <p>Основной курс для знакомства с нейрографикой.</p>
+                <a href="services.html" class="btn btn-secondary">Узнать больше</a>
+            </div>
+            <div class="service-item">
+                <img src="img/combo2.jpg" alt="Изображение услуги" width="100%" >
+                <h3>Продвинутый пакет</h3> 
+                <p>Для более глубокой работы и освоения техник.</p>
+                <a href="services.html" class="btn btn-secondary">Узнать больше</a>
+            </div>
+            <div class="service-item">
+                <img src="img/combo3.jpg" alt="Изображение услуги" width="100%" >
+                <h3>Интенсивный курс</h3> 
+                <p>Интенсив для достижения быстрых и заметных результатов.</p>
+                <a href="services.html" class="btn btn-secondary">Узнать больше</a>
+            </div>
+            <div class="service-item">
+                <img src="img/combo1.jpg" alt="Изображение услуги" width="100%" >
+                <h3>Персональные занятия один на один</h3> 
+                <p>Индивидуальный подход для каждого.</p>
+                <a href="services.html" class="btn btn-secondary">Узнать больше</a>
+            </div>
+        </div>
+        </div>
+        <div class="services-click">
+            <a href="services.html" class="btn btn-secondary">Перейти к полному списку услуг</a>
+        </div>
+ </section>
+
+ <!-- Галерея работ -->
+  <section class="gallery-preview">
+    <div class="container">
+        <h2>Галерея работ</h2>
+        <img src="img/lesson-sample.jpg" alt="Пример работы" width="100%">
+        <p>Ознакомьтесь с примерами работ, созданными в процессе нейрографических сессий.</p>
+        <a href="gallery.html" class="btn btn-secondary">Посмотреть галерею</a>
+    </div>
+  </section>
+
+  <!--Секция новостей-->
+  <section class="news">
+    <div class="container">
+        <h2>Новости нейрографики</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <h3>Что такое нейрографика и как она работает?</h3>
+                <img src="img/news1.jpg" alt="Что такое нейрографика и как она работает?" width="50%">
+                <p><span class="bold">Нейрографика</span> – это современная методика самопознания и 
+                    творчества, разработанная в 2014 году российским психологом и художником Павлом 
+                    Пискарёвым. Этот метод основывается на соединении психологии и искусства и 
+                    позволяет человеку решать внутренние и внешние конфликты, улучшать эмоциональное 
+                    состояние и развивать креативное мышление с помощью рисунков.</p>
+                    <a href="blog.html" class="btn btn-secondary">Читать дальше</a>
+            </div>
+            <div class="news-item">
+                <h3>История и развитие нейрографики</h3>
+                <img src="img/news2.jpg" alt="Что такое нейрографика и как она работает?" width="50%">
+                <p>Нейрографика как метод самопознания и терапевтического искусства появилась сравнительно 
+                    недавно – в 2014 году. Создателем метода стал российский психолог, доктор психологических 
+                    наук и художник Павел Пискарёв. Разрабатывая метод нейрографики, Пискарёв опирался на 
+                    свой опыт в психологии и искусстве, а также стремление создать инструмент, 
+                    позволяющий людям трансформировать свои внутренние переживания и конфликты через 
+                    визуальное творчество.</p>
+                    <a href="blog.html" class="btn btn-secondary">Читать дальше</a>
+            </div>
+            <div class="services-click">
+                <a href="идщп.html" class="btn btn-secondary">Перейти ко всем новостям</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="testimonials">
+    <div class="container">
+        <h2>Отзывы клиентов</h2>
+        <img src="img/testimonials.jpg" alt="Фотография клиента">
+        <p>Посмотрите, что говорят наши клиенты о сеансах нейрографики.</p>
+        <a href="testimonials.html" class="btn btn-secondary">Читать отзывы</a>
+    </div>
+</section>
+
+<!-- Призыв к действию -->
+<section class="cta">
+    <div class="container">
+        <h2>Готовы к трансформации?</h2>
+        <a href="contact.html" class="btn btn-primary">Записаться на сеанс</a>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="services.html">Услуги и пакеты</a>
+            <a href="gallery.html">Галерея работ</a>
+            <a href="contact.html">Контактная информация</a>
+            <a href="faq.html">Часто задаваемые вопросы (FAQ)</a>
+        </div>
+        <p>&copy; 2024 Нейрографика с Светланой Лозиной. Все права защищены.</p>
+    </div>
+    <!-- Кнопки социальных сетей -->
+        <div class="social-icons">
+        <div class="contact-links">
+           <a
+           href="https://facebook.com/lilia.omoloeva.5"
+                  target="_blank"
+                  class="btn contact-details">
+                  <i class="fab fa-facebook"></i>
+                 </a>
+        
+           <a
+           href="https://www.instagram.com/liliaomoloeva/"
+           target="_blank"
+                  class="btn contact-details">
+              <i class="fa-brands fa-square-instagram"></i>
+              </a>
+        
+           <a href="https://wa.me/50687469952" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-square-whatsapp"></i>
+           </a>
+        
+           <a href="mailto:info.magazincr@gmail.com"
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-solid fa-envelope"></i>
+           </a>
+        
+           <a href="https://t.me/liliacostarica" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-telegram"></i>
+           </a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu-items');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+<a href="#top" class="back-to-top" onclick="scrollToTop(); return false;">
+    <i class="fas fa-arrow-up"></i>
+</a>
+<script>
+    // Показать кнопку при прокрутке вниз на 200px
+    window.addEventListener("scroll", function() {
+        const backToTopButton = document.querySelector(".back-to-top");
+        if (window.scrollY > 200) {
+            backToTopButton.classList.add("show");
+        } else {
+            backToTopButton.classList.remove("show");
+        }
+    });
+
+    // Функция прокрутки наверх
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+
+</body>
+</html>

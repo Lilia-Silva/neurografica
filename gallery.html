@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея работ - Нейрографика с Лозиной Светланой</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Шапка сайта -->
+<header class="header">
+    <div class="container-header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Логотип"></a>
+        <nav class="navigation">
+            <button class="menu-toggle" onclick="toggleMenu()">Главное меню</button>
+            <div class="menu-items">
+                <a href="index.html">Главная страница</a>
+                <a href="about.html">О специалисте</a>
+                <a href="services.html">Услуги и пакеты</a>
+                <a href="gallery.html">Галерея работ</a>
+                <a href="testimonials.html">Отзывы клиентов</a>
+                <a href="contact.html">Контактная информация</a>
+                <a href="faq.html">Часто задаваемые вопросы</a>
+            </div>
+        </nav>
+        <div class="header-right">
+            <a href="contact.html" class="btn btn-primary">Записаться</a>
+        </div>
+    </div>
+</header>
+
+<!-- Основной заголовок страницы -->
+<section class="gallery-header">
+    <div class="container">
+        <h2>Галерея работ</h2>
+        <p>Уникальные работы, отражающие эмоции и вдохновение через нейрографику</p>
+    </div>
+</section>
+
+<!-- Введение в галерею -->
+<section class="intro">
+    <div class="container">
+        <p>Каждая работа выполнена с глубоким пониманием эмоций и потребностей клиента. Нейрографика помогает раскрыть внутренние ресурсы, найти гармонию и увидеть красоту в себе и окружающем мире.</p>
+    </div>
+</section>
+
+<!-- Основная галерея работ -->
+<section class="gallery">
+    <div class="container">
+        <div class="gallery-grid">
+            <!-- Пример одной работы -->
+            <div class="gallery-item">
+                <img src="img/combo1.jpg" alt="Работа с темой гармонии" onclick="openModal(this.src)">
+                <p>Работа с темой гармонии</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo2.jpg" alt="Работа с темой уверенности" onclick="openModal(this.src)">
+                <p>Работа с темой уверенности</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo3.jpg" alt="Работа для снятия стресса" onclick="openModal(this.src)">
+                <p>Работа для снятия стресса</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo1.jpg" alt="Работа с темой гармонии" onclick="openModal(this.src)">
+                <p>Работа с темой гармонии</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo2.jpg" alt="Работа с темой уверенности" onclick="openModal(this.src)">
+                <p>Работа с темой уверенности</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo3.jpg" alt="Работа для снятия стресса" onclick="openModal(this.src)">
+                <p>Работа для снятия стресса</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo1.jpg" alt="Работа с темой гармонии" onclick="openModal(this.src)">
+                <p>Работа с темой гармонии</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo2.jpg" alt="Работа с темой уверенности" onclick="openModal(this.src)">
+                <p>Работа с темой уверенности</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo3.jpg" alt="Работа для снятия стресса" onclick="openModal(this.src)">
+                <p>Работа для снятия стресса</p>  
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo1.jpg" alt="Работа с темой гармонии" onclick="openModal(this.src)">
+                <p>Работа с темой гармонии</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo2.jpg" alt="Работа с темой уверенности" onclick="openModal(this.src)">
+                <p>Работа с темой уверенности</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo3.jpg" alt="Работа для снятия стресса" onclick="openModal(this.src)">
+                <p>Работа для снятия стресса</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo1.jpg" alt="Работа с темой гармонии" onclick="openModal(this.src)">
+                <p>Работа с темой гармонии</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo2.jpg" alt="Работа с темой уверенности" onclick="openModal(this.src)">
+                <p>Работа с темой уверенности</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/combo3.jpg" alt="Работа для снятия стресса" onclick="openModal(this.src)">
+                <p>Работа для снятия стресса</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="services.html">Услуги и пакеты</a>
+            <a href="gallery.html">Галерея работ</a>
+            <a href="contact.html">Контактная информация</a>
+            <a href="faq.html">Часто задаваемые вопросы (FAQ)</a>
+        </div>
+        <p>&copy; 2024 Нейрографика с Светланой Лозиной. Все права защищены.</p>
+    </div>
+    <!-- Кнопки социальных сетей -->
+        <div class="social-icons">
+        <div class="contact-links">
+           <a
+           href="https://facebook.com/lilia.omoloeva.5"
+                  target="_blank"
+                  class="btn contact-details">
+                  <i class="fab fa-facebook"></i>
+                 </a>
+        
+           <a
+           href="https://www.instagram.com/liliaomoloeva/"
+           target="_blank"
+                  class="btn contact-details">
+              <i class="fa-brands fa-square-instagram"></i>
+              </a>
+        
+           <a href="https://wa.me/50687469952" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-square-whatsapp"></i>
+           </a>
+        
+           <a href="mailto:info.magazincr@gmail.com"
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-solid fa-envelope"></i>
+           </a>
+        
+           <a href="https://t.me/liliacostarica" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-telegram"></i>
+           </a>
+        </div>
+    </div>
+</footer>
+<!-- Модальное окно для увеличения изображений -->
+<div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<!-- Скрипт для увеличения изображений -->
+<script>
+    function openModal(src) {
+        document.getElementById("modal").style.display = "block";
+        document.getElementById("modalImage").src = src;
+    }
+    function closeModal() {
+        document.getElementById("modal").style.display = "none";
+    }
+</script>
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu-items');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>

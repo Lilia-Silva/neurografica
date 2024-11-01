@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактная информация - Нейрографика с Лозиной Светланой</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Шапка сайта -->
+<header class="header">
+    <div class="container-header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="Логотип"></a>
+        <nav class="navigation">
+            <button class="menu-toggle" onclick="toggleMenu()">Главное меню</button>
+            <div class="menu-items">
+                <a href="index.html">Главная страница</a>
+                <a href="about.html">О специалисте</a>
+                <a href="services.html">Услуги и пакеты</a>
+                <a href="gallery.html">Галерея работ</a>
+                <a href="testimonials.html">Отзывы клиентов</a>
+                <a href="blog.html">Блог или статьи</a>
+                <a href="contact.html">Контактная информация</a>
+                <a href="faq.html">Часто задаваемые вопросы</a>
+            </div>
+        </nav>
+        <div class="header-right">
+            <a href="contact.html" class="btn btn-primary">Записаться</a>
+        </div>
+    </div>
+</header>
+
+<!-- Основной заголовок страницы -->
+<section class="contact-header">
+    <div class="container">
+        <h2>Контактная информация</h2>
+        <p>Свяжитесь со мной для записи на консультацию или за дополнительной информацией.</p>
+    </div>
+</section>
+
+<!-- Раздел контактных данных -->
+<section class="contact-info">
+    <div class="container">
+        <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>Телефон: +506 8746 9952</p>
+            <small>Пн-Пт, 9:00 – 18:00</small>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: info.magazincr@gmail.com</p>
+        </div>
+        <div class="contact-item social-icons">
+            <a href="https://facebook.com/lilia.omoloeva.5" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/liliaomoloeva/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/50687469952" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/liliacostarica" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Форма обратной связи -->
+<section class="contact-form">
+    <div class="container">
+        <h3>Отправьте сообщение</h3>
+        <form action="#" method="post">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Тема</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Отправить сообщение</button>
+            <p class="confirmation-message" style="display: none;">Спасибо! Мы свяжемся с вами в ближайшее время.</p>
+        </form>
+    </div>
+</section>
+
+<!-- Раздел с картой -->
+<section class="map-section">
+    <div class="container">
+        <h3>Местоположение</h3>
+        <p>Адрес: Сан-Хосе, Коста-Рика (посещение по предварительной записи)</p>
+        <iframe src="https://maps.google.com/maps?q=Banshan%20Bandao%20Sanya%20Hainan%20China&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+</section>
+
+<!-- Превью часто задаваемых вопросов -->
+<section class="faq-preview">
+    <div class="container">
+        <h3>Часто задаваемые вопросы</h3>
+        <div class="faq-item">
+            <h4>Что такое нейрографика и как она помогает?</h4>
+            <p>Нейрографика помогает управлять эмоциями и достичь внутренней гармонии.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Как записаться на консультацию?</h4>
+            <p>Вы можете записаться на консультацию, заполнив форму на сайте или по телефону.</p>
+        </div>
+        <a href="faq.html" class="btn btn-secondary">Все вопросы</a>
+    </div>
+</section>
+
+<!-- Призыв к записи -->
+<section class="cta-section">
+    <div class="container">
+        <p>Готовы начать путь к гармонии?</p>
+        <a href="contact.html" class="btn btn-primary">Записаться на консультацию</a>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="services.html">Услуги и пакеты</a>
+            <a href="gallery.html">Галерея работ</a>
+            <a href="contact.html">Контактная информация</a>
+            <a href="faq.html">Часто задаваемые вопросы (FAQ)</a>
+        </div>
+        <p>&copy; 2024 Нейрографика с Светланой Лозиной. Все права защищены.</p>
+    </div>
+    <!-- Кнопки социальных сетей -->
+        <div class="social-icons">
+        <div class="contact-links">
+           <a
+           href="https://facebook.com/lilia.omoloeva.5"
+                  target="_blank"
+                  class="btn contact-details">
+                  <i class="fab fa-facebook"></i>
+                 </a>
+        
+           <a
+           href="https://www.instagram.com/liliaomoloeva/"
+           target="_blank"
+                  class="btn contact-details">
+              <i class="fa-brands fa-square-instagram"></i>
+              </a>
+        
+           <a href="https://wa.me/50687469952" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-square-whatsapp"></i>
+           </a>
+        
+           <a href="mailto:info.magazincr@gmail.com"
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-solid fa-envelope"></i>
+           </a>
+        
+           <a href="https://t.me/liliacostarica" 
+           target="_blank"
+           class="btn contact-details">
+              <i class="fa-brands fa-telegram"></i>
+           </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll('.faq-item h4').forEach(question => {
+        question.addEventListener('click', () => {
+            const faqItem = question.parentNode;
+            faqItem.classList.toggle('active');
+            const answer = faqItem.querySelector('p');
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu-items');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+</body>
+</html>
